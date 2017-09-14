@@ -1,0 +1,115 @@
+.bgteste{
+    background: $blue;
+    height: 400px !important;
+}
+.carousel-control.left{
+    background: none;
+    opacity: 1;
+    text-shadow: none;
+    height: 0;
+    margin-left: 10px;
+    margin-top: 300px;
+    width: 0;
+}
+.carousel-control.right{
+    background: none;
+    font-size: 15px;
+    height: 0;
+    margin-right: -10px;
+    margin-top: 300px;
+    opacity: 1;
+    text-shadow: none;
+    width: 0;
+}
+
+.testea{
+    background: #FFF;
+    border-radius: 100%;
+    color: $blue;
+    font-size: 20px !important;
+    padding: 5px;
+}
+.testeb{
+    background: #FFF;
+    border-radius: 100%;
+    color: $blue;
+    font-size: 20px !important;
+    padding: 0;
+    padding: 5px;
+   
+}
+.marginright{
+    margin-right: -90px;
+}
+.marginleft {
+    margin-left: -80px;
+}
+.carousel-control-top{
+    top: -100px;
+}
+.opacidade{
+    opacity: 0.3;
+    
+}
+.preco{
+    text-align: center;
+    text-decoration: none;
+    p{
+        color: $blue2;
+        font-size: 20px;
+    }
+    span{
+        color: $blue;
+        font-size: 25px;
+        font: 700;
+    }
+    strong{
+        color: $text;
+    }
+}
+.aligna{
+    color: $white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -200px;
+    position: absolute;
+}
+.alignb{
+    color: $white;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: -200px;
+    position: absolute;
+    right: 0px;
+}
+
+/* Carousel owl */
+
+.owl-prev{
+    background: $white !important;
+    border-radius: 100% !important;
+    color: $blue !important;
+    font-size: 30px;
+    left: -15px;
+    margin-top: -1% !important;
+    padding: 5px !important;
+    position: absolute !important;
+    top: 30%;
+    i{
+        padding: 0 5px !important
+    }
+}
+.owl-next{
+    background: $white !important;
+    border-radius: 100% !important;
+    color: $blue !important;
+    font-size: 30px;
+    margin-top: -1% !important;
+    padding: 5px !important;
+    position: absolute !important;
+    right: -15px;
+    top: 30%;
+    i{
+        padding: 0 5px !important;
+    }
+}

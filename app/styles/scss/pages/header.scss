@@ -1,0 +1,52 @@
+.nav-aling{
+	margin-top: 1%;
+	margin-left: 15%;
+}
+.menu-nav{
+	background: $blue;
+	color: #fff !important;
+	margin-top: 5px;
+	padding: 15px 30px;
+}
+.navbar-style{
+	background: transparent !important;
+	border: none;
+}
+.navbar-style-blue{
+	background: $blue;
+	border: none;
+	a{
+		color: $white;
+	}
+}
+.search{
+	background: $blue2;
+    border: none;
+    color: white;
+    padding: 12px;
+    width: 350px;
+    }
+.fa-custom{
+	color: $blue;
+	margin-left: -40px;
+	font-size: 20px;
+}
+.navbar-toggle{
+	background: $blue;
+	span{
+		background: $white;
+	}
+}
+ul{
+	li{
+		margin-top: 5px;
+		a{
+		&:hover{
+			background: transparent !important;
+		}
+		i{
+		font-size: 20px !important;
+		}
+		}
+	}
+}
